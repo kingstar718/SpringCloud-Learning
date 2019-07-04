@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ch-5-eureka-hystrix" />
+        <module name="ch-6-eureka-zuul" />
+        <module name="ch-3-eureka-ribbon" />
+        <module name="SpringCloud-Learning" />
+        <module name="ch-4-eureka-feign" />
+        <module name="ch-2-eureka-client" />
+        <module name="ch-1-eureka-server" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringCloud-Learning" options="-parameters" />
+      <module name="ch-1-eureka-server" options="-parameters" />
+      <module name="ch-2-eureka-client" options="-parameters" />
+      <module name="ch-3-eureka-ribbon" options="-parameters" />
+      <module name="ch-4-eureka-feign" options="-parameters" />
+      <module name="ch-5-eureka-hystrix" options="-parameters" />
+      <module name="ch-6-eureka-zuul" options="-parameters" />
+    </option>
+  </component>
+</project>
